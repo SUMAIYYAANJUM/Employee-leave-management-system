@@ -151,6 +151,12 @@ INSERT INTO `tblleavetype` (`id`, `LeaveType`, `Description`, `date_from`, `date
 ALTER TABLE `admin`
   ADD PRIMARY KEY (`id`);
 --
+-- Indexes for table `tbldepartments`
+--
+ALTER TABLE `tbldepartments`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `tblemployees`
 --
 ALTER TABLE `tblemployees`
