@@ -141,6 +141,17 @@ INSERT INTO `tblleavetype` (`id`, `LeaveType`, `Description`, `date_from`, `date
 (3, 'Other', 'Leave all staff', '31-05-2023', '04-06-2023', '2023-05-20 17:17:43');
 
 -- --------------------------------------------------------
+-
+-- Indexes for dumped tables
+--
 
+--
+-- Indexes for table `admin`
+--
 ALTER TABLE `admin`
   ADD PRIMARY KEY (`id`);
+--
+-- Indexes for table `tblemployees`
+--
+ALTER TABLE `tblemployees`
+  ADD PRIMARY KEY (`emp_id`);
